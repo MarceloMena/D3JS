@@ -1,0 +1,45 @@
+body {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.selected-element {
+    color:red;
+}
+
+.lines {
+    stroke: black;
+    stroke-width: 10px;
+}
+
+.lines path {
+    stroke: brown;
+    stroke-linejoin: round;
+}
+
+.country {
+    stroke: black;
+    stroke-opacity: 1;
+    stroke-width:  0.1px;
+}
+
+.map-background {
+    fill: rgb(147, 147, 255);
+}
+
+.country:hover {
+    fill: brown;
+}
+
+.tick text {
+    font-family: sans-serif;
+    font-size: 0.25em;
+}
+
+.tick circle {
+    stroke: black;
+}
+
+.tick {
+    cursor: pointer;
+}
